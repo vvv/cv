@@ -1,0 +1,217 @@
+[ This file was last modified on 27 March 2011. ]
+
+Valery V. Vorotyntsev
+
+  Email/IM:  valery.vv@gmail.com
+  Phone:     +380-50196-7865
+  WWW:       http://github.com/vvv  http://www.linkedin.com/in/vorotylo
+
+
+Linux programmer with experience in simulation, telecom data
+processing and embedded software development.  Bottom-up designer and
+merciless refactorer.  Open source contributor (emacs-jabber, xmonad,
+cabal-install, iteratee; oci-wrappers, work-log.el, topla.py,
+under.c).  Organizer of the first Ukrainian Haskell hackathon [1].
+
+
+Specialties: C, shell, Python, awk, make, C++
+Familiar with: Haskell, SQL, Perl, Lisp, m4
+
+
+What other people say
+=====================
+
+* From: Andrea Rossato
+  Subject: documenting xmonad-0.5
+
+  > I think that an example of a good way of documenting a module can be
+  > seen here:
+  >
+  > http://xmonad.org/xmonad-docs/xmonad-contrib/XMonad-Util-CustomKeys.html
+  >
+  > I suggest to use it as a model.
+
+ -- http://thread.gmane.org/gmane.comp.lang.haskell.xmonad/3327
+
+* From: Sigbjorn Finne
+  Subject: Re: [patch] #562: cabal-install update fails going through a
+           HTTP proxy
+
+  > nice one -- sterling work chasing this one down and providing a
+  > suggested fix :)
+
+ -- http://www.haskell.org/pipermail/cabal-devel/2009-November/005787.html
+
+
+Education
+=========
+
+ * National Technical University of Ukraine ("Kiev Polytechnic Institute")
+   [1993 - 1999]
+   Engineer-electrician, Avionics (diploma with honor)
+
+ * Nature and Science Lyceum ("Physics and Mathematics School #145")
+   [1990 - 1993]
+   Distinguished by mathematical skills (award)
+
+
+Work experience
+===============
+
+Cogent Plus  (offshore software development company)
+-----------
+
+  Period: January 2011 - now
+  Role: embedded software engineer
+
+  Contribution:
+
+  * Integrated third-party TR-069 client with OpenRG [2] Linux-based
+    framework. The software runs on ITS Telecom mobile broadband
+    router.
+
+
+Infopulse  (IT outsourcing company)
+---------
+
+  Period: June 2006 - December 2010
+  Position: senior programmer; consultant at `MTS-Ukraine' (mobile operator)
+  Role: developed and maintained CDR processing software
+
+  Data formats: DER (ASN.1), custom binaries, DSV, plain text
+  PL:  C++, Python, PL/SQL, shell, awk
+  DB:  Oracle, SQLite
+
+  Contributions:
+
+  * Designed and implemented iteratee-based DER files codec [3].
+
+  * Co-designed and implemented the ``Type of Subscriber determination
+    algorithm'', which is now part of most preprocessing modules and
+    is used by provisioning system.
+
+  * Implemented a library of m4 macros to simplify editing of
+    corporate wiki.
+
+  * Extracted core functionality of preprocessing modules into a
+    Python library. Format-specific modules only need to describe data
+    conversions and import the library.
+
+  * Developed `oci-wrappers' library [4].
+
+  * Introduced unit tests.
+
+  * Refactoring, refactoring, refactoring...
+
+
+ETC PT  (full-scope and analytical simulators for NPP personnel training)
+------
+
+  Period: March 1999 - May 2006
+  Positions: software engineer (Mar 1999 - Nov 2004),
+             leading expert (Nov 2004 - May 2006)
+
+  ---
+  Project: Zaporizhzhya Nuclear Power Plant (NPP) Full-Scope Simulator,
+           warranty period (Jul 2005 - Mar 2006)
+
+  Contributions:
+
+  * Developed logging and report generation system: a collection of
+    CLI utilities (written in Python and C), being controlled with web
+    browser UI (an HTTP server in Python, inspired by Trac).
+
+  * Configured PPP link between simulator's LAN (Energodar) and
+    engineering office (Kiev), allowing software engineers to perform
+    on-site jobs remotely.
+
+  ---
+  Project: analytical simulator for Sevastopol Institute of Nuclear Energy
+           (Jul 2005 - Mar 2006)
+
+  Contributions:
+
+  * Wrote a generator of data views from textual descriptions.
+
+    ``Data Views'' are custom binary files [5], processed by
+    Instructor Station software. The files encode visual layout and
+    data sources for graphical objects, that are updated when
+    simulator is running.
+
+    Implementation: Python program with C extensions. (Some Fortran
+    code was generated as an extra bonus.:)
+
+  ---
+
+  Project: ZapNPP FSS, `Plant Process Computer' system (Mar 2003 -
+           Nov 2004)
+  Role: porting, development and maintenance of information display
+        system (a simulation of actual plant equipment).
+
+  System consisted of 13 Linux boxes, 2 terminal servers, custom
+  keyboards and a printer.
+
+  Contributions:
+  * Ported legacy C code from SGI IRIX to Linux.
+  * Programmed new subsystem (learning C++ and XP methodologies
+    meanwhile).
+  * Helped mathematical model engineers to debug their executables.
+
+  The system grew from OS installation to the final acceptance.
+  Being used for NPP personnel training, it is still in operation.
+
+  Software: networking, X11, SysV IPC, dbm.
+  PL: C, C++, Python, shell.
+
+  ---
+
+  During his pre-Linux ``dark ages'' (Mar 1999 - Mar 2003), Valery was
+  busy writing Visual Basic and VBA programs for:
+  - MS Access applications,
+  - CAD automation (Autodesk AutoCAD, Mechanical Desktop drawings
+    generation),
+  - MS Excel and Word automation,
+  - SQL batch runners (Ingres to Access DB migration project).
+
+
+Favourite hacks
+===============
+
+  * Reverse engineering of Motorola L7e playlist format [6].
+
+  * Finding grave bug in Fortran program by disassembling executable
+    that failed.
+
+  * under.c
+
+				* * *
+
+Acronyms
+========
+
+ASN.1   Abstract Syntax Notation One
+DER     Distinguished Encoding Rules
+CDR     Call Detail Record
+CLI     command-line interface
+DB      database(s)
+DSV     delimiter-separated values
+ETC PT  Engineering & Technical Center for Personnel Training
+FSS     full-scope simulator
+HQ      headquarters
+NP      nuclear power
+NPP     Nuclear Power Plant
+PL      programming language(s)
+PPP     Point-to-Point Protocol
+UI      user interface
+XP      Extreme Programming
+
+
+References
+==========
+
+  [1] http://www.haskell.org/haskellwiki/LtU-Kiev/Hackathon
+  [2] http://www.jungo.com/openrg/pr_openrg.html
+  [3] https://github.com/vvv/under.c
+  [4] http://sourceforge.net/projects/oci-wrappers
+  [5] http://www.infornet.co.kr/sw_dv3.html
+  [6] http://vorotylo.livejournal.com/67332.html
