@@ -1,8 +1,8 @@
 # Valery V. Vorotyntsev
 
-Experienced software engineer, pragmatic problem solver.  I can organize an efficient team, which is pleasant to work in.  People like working with me.
+Experienced software engineer, pragmatic problem solver.  I can grow an efficient team.  People like working with me.
 
-Looking for a Rust programming opportunity (remote) in an open source project.
+I am looking for a remote Rust programming opportunity, open source.
 
 Email: valery.vv@gmail.com <br>
 IM: @valery.vv:matrix.org <br>
