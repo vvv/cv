@@ -15,7 +15,7 @@ LinkedIn: https://www.linkedin.com/in/vorotylo/
 
 :earth_asia: _Remote work, globally distributed team._
 
-Company: Xyratex → Seagate
+**Company:** Xyratex → Seagate
 
 R&D project.  Initially targeting exascale HPC, then archive solution, now — hybrid cloud.  To be open-sourced in autumn 2020.
 
@@ -50,13 +50,13 @@ Technologies: C, Python, bash, a sprinkle of Expect and JavaScript.
 
 ### January 2011–May 2011: Embedded software engineer
 
-Company: Cogent Plus
+**Company:** Cogent Plus
 
 * Integrated third-party TR-069 client with [OpenRG](https://web.archive.org/web/20110515113200/http://www.jungo.com/openrg/pr_openrg.html) middleware (Linux-based).  The software ran on ITS Telecom mobile broadband router.
 
 ### 2006–2010: Mobile operator data processing
 
-Company: UMC → MTC → Vodafone
+**Company:** UMC → MTC → Vodafone
 
 Pipeline: telecom equipment → CDRs → my software :wave: → Oracle DB
 
@@ -68,7 +68,7 @@ Pet projects:
 
 ### 1999–2006: Nuclear power plant simulators
 
-Company: ИТЦ ПК (GSE Systems' subcontractor)
+**Company:** ИТЦ ПК (GSE Systems' subcontractor)
 
 "Plant process" graphical dashboard application ([behold :desktop_computer:](https://www.youtube.com/watch?v=L_WoXBLTCLs&t=51s)).  I ported it from IRIX to Linux, adapted to the needs of our project and integrated.
 
