@@ -5,7 +5,7 @@ Experienced software engineer, pragmatic problem solver.  I can grow an efficien
 I am looking for a remote Rust programming opportunity, open source.
 
 Email: valery.vv@gmail.com <br>
-IM: @valery.vv:matrix.org <br>
+IM: [@valery.vv:matrix.org](https://matrix.to/#/@valery.vv:matrix.org) <br>
 GitHub: https://github.com/vvv <br>
 LinkedIn: https://www.linkedin.com/in/vorotylo/
 
