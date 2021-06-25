@@ -2,14 +2,18 @@
 
 Experienced software engineer, pragmatic problem solver.  I can grow an efficient team.  People like working with me.
 
-I am looking for a remote Rust programming opportunity, open source.
-
 Email: valery.vv@gmail.com <br>
 IM: [@valery.vv:matrix.org](https://matrix.to/#/@valery.vv:matrix.org) <br>
 GitHub: https://github.com/vvv <br>
 LinkedIn: https://www.linkedin.com/in/vorotylo/
 
-## Work experience
+## Work
+
+### October 2020–now
+
+**Company:** [Elastio](https://www.elastio.com)
+
+Rust programmer in a startup building a backup and recovery solution for public clouds.
 
 ### 2011–2020: Distributed object store
 
