@@ -1,48 +1,51 @@
 # Valery V. Vorotyntsev
 
-Experienced software engineer, pragmatic problem solver.  I can grow a happy and productive team.
+Experienced software engineer, pragmatic problem solver.  I can grow a happy and productive team.  People like working with me.
 
-Email: valery.vv@gmail.com <br/>
-GitHub: [vvv](https://github.com/vvv) <br/>
+Email: valery.vv@gmail.com \
+GitHub: [vvv](https://github.com/vvv) \
 LinkedIn: https://www.linkedin.com/in/vorotylo/
 
 ## Work
 
 ### October 2020–now: Rust programmer at Elastio
 
-Elastio is a startup building a cloud-native backup and recovery solution for public clouds.
+Elastio is a startup building a **cloud-native** backup and recovery solution for public clouds.
 
-My contributions:
+What I did there:
 
-- Developed gRPC APIs in Rust: users, filters, email delivery, AWS Lambda invocation, etc.
-- Improved maintainability of the CI workflow file by rewriting it in Dhall
+- Programmed gRPC API services in Rust (users, email delivery, AWS Lambda invocation, asset filters, _&c._)
+- Improved maintainability of the CI (applied `github-actions-dhall`)
+- Implemented a config crate (à la `aws config`)
 - Enhanced the ergonomics of `elastio` CLI tool
 - Wrote ransomware detection tools — from early experiments and prototypes to the alpha version
 
 Technologies:
-- Rust, Python, Bash, `jq`
-- AWS (EBS, EC2, ECR, Lambda, S3)
+- Rust: `nom`, `sqlx`, `tokio`, `tonic`
+- AWS: EBS, EC2, ECR, Lambda, S3
+- Protobuf
 - Docker
+- Bash, `jq`, Python
 
 ### 2011–2020: Distributed object store
 
 Company: Xyratex → Seagate
 
-The project started as an exascale object storage system for HPC.  Then it pivoted and became an archival solution.  Then a hybrid cloud...  The code had been [open-sourced][cortx-motr] in autumn 2020.
+The project started as an exascale **object storage system** for HPC.  Then it pivoted into an archival solution.  Then a hybrid cloud...  The code had been [open-sourced][cortx-motr] in autumn 2020.
 
 [cortx-motr]: https://github.com/Seagate/cortx-motr
 
 #### July 2019–August 2020: "Hare" project :rabbit:
 
-Our team of 5 had successfully replaced legacy HA system with a simpler solution based on Consul.
+I lead a team of 5 engineers.  We had successfully replaced legacy HA system with a simpler solution based on **Consul**.
 
 My main contributions:
 * [PC3][] collaboration model — for 5 months the team was a happy oasis :palm_tree: set amid enterprise desolation
-* Initiated [RFCs][]
-* Tests automation, CI pipeline, merge bot
+* Introducing the practice of **[RFCs][]**
+* Tests automation, CI, merge bot
 * [Configuration][`cfgen`] module
 
-Technologies: Python, Dhall 🖋, Bash; Consul; GitLab CI, Jenkins
+Technologies: Python, **Dhall** 🖋, Bash; Consul; GitLab CI, Jenkins; GFM-formatted English
 
 [`cfgen`]: https://github.com/Seagate/cortx-hare/tree/929c0ca4f9a6e79ddc3d7cf5451d5f9c7293814b/cfgen
 [PC3]: https://github.com/Seagate/cortx-hare/blob/929c0ca4f9a6e79ddc3d7cf5451d5f9c7293814b/rfc/9/README.md
@@ -50,9 +53,11 @@ Technologies: Python, Dhall 🖋, Bash; Consul; GitLab CI, Jenkins
 
 #### May 2017–June 2019: Haskell programmer, team lead
 
-* Inherited a High Availability (HA) solution — 50K lines of Haskell code — from [Tweag.io][] developers.  Coped with it. :sweat_smile:
-* Mentored 5 colleagues, who never programmed Haskell before.  We had become a team of Haskell developers.
+* Inherited a **High Availability** (HA) solution — 50K lines of Haskell code — from [Tweag.io][] developers.  Coped with it. :sweat_smile:
+* **Mentored** 5 colleagues, who never programmed Haskell before.  We had become a team of Haskell developers.
 * Maintenance.  New features development.
+
+Technologies: **Cloud Haskell**, `Control.Monad.Operational`
 
 [Tweag.io]: https://www.tweag.io/
 
@@ -61,9 +66,9 @@ Technologies: Python, Dhall 🖋, Bash; Consul; GitLab CI, Jenkins
 * [Configuration caching][confc] subsystem (DAG of conf objects, client/server, graph traversal APIs, data format converter, visualization) — design and implementation
 * Modular initialization/finalization mechanism — implementation
 * Memory-efficient representation of device pools — design and implementation
-* Wrote helper scripts that improved DX
+* Wrote helper scripts for fellow developers
 
-Technologies: C, Python, Bash, a sprinkle of Expect and JavaScript
+Technologies: C, Python, Bash, a sprinkle of **Expect** and JavaScript
 
 [confc]: https://github.com/Seagate/cortx-motr/tree/81793c00bed8d8b60d2fe0e58a3640648e5e3eca/conf
 
