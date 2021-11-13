@@ -1,4 +1,4 @@
-# Valery V. Vorotyntsev
+# Valeriy V. Vorotyntsev
 
 Experienced software engineer, pragmatic problem solver.  I can grow a happy and productive team.  People like working with me.
 
