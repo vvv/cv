@@ -17,8 +17,9 @@ My contributions:
 - Implemented ransomware detection software in Rust
 - Developed R&D tools in Bash, Python, and Rust
 - Improved ergonomics of `elastio` CLI tool
+- Implemented a config crate (à la `aws config`)
 - Enhanced maintainability of CI definitions (ask me about `github-actions-dhall`)
-- Programmed gRPC API services in Rust (`tokio`, `tonic`, `sqlx`)
+- Programmed gRPC API services in Rust
 
 Technologies:
 - AWS (EBS, EC2, ECR, Lambda, S3)
