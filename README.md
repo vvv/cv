@@ -10,22 +10,23 @@ LinkedIn: https://www.linkedin.com/in/vorotylo/
 
 ### October 2020–now: Rust programmer at Elastio
 
-Elastio is a startup building a **cloud-native** backup and recovery solution for public clouds.
+[Elastio] is a startup building a backup and recovery solution for public clouds.
 
-What I did there:
+My contributions:
 
-- Programmed gRPC API services in Rust (users, email delivery, AWS Lambda invocation, asset filters, _&c._)
-- Improved maintainability of the CI (applied `github-actions-dhall`)
-- Implemented a config crate (à la `aws config`)
-- Enhanced the ergonomics of `elastio` CLI tool
-- Wrote ransomware detection tools — from early experiments and prototypes to the alpha version
+- Implemented ransomware detection software in Rust
+- Developed R&D tools in Bash, Python, and Rust
+- Improved ergonomics of `elastio` CLI tool
+- Enhanced maintainability of CI definitions (ask me about `github-actions-dhall`)
+- Programmed gRPC API services in Rust (`tokio`, `tonic`, `sqlx`)
 
 Technologies:
-- Rust: `nom`, `sqlx`, `tokio`, `tonic`
-- AWS: EBS, EC2, ECR, Lambda, S3
+- AWS (EBS, EC2, ECR, Lambda, S3)
 - Protobuf
 - Docker
-- Bash, `jq`, Python
+- `jq` _(my precious!)_
+
+[Elastio]: https://elastio.com/
 
 ### 2011–2020: Distributed object store
 
@@ -35,11 +36,11 @@ The project started as an exascale **object storage system** for HPC.  Then it p
 
 [cortx-motr]: https://github.com/Seagate/cortx-motr
 
-#### July 2019–August 2020: "Hare" project :rabbit:
+#### July 2019–August 2020: "Hare" team leader :rabbit:
 
-I lead a team of 5 engineers.  We had successfully replaced legacy HA system with a simpler solution based on **Consul**.
+I lead a team of 5 engineers.  We had successfully replaced legacy HA (High Availability) system with a simpler solution based on **Consul**.
 
-My main contributions:
+My contributions:
 * [PC3][] collaboration model — for 5 months the team was a happy oasis :palm_tree: set amid enterprise desolation
 * Introducing the practice of **[RFCs][]**
 * Tests automation, CI, merge bot
@@ -51,11 +52,10 @@ Technologies: Python, **Dhall** 🖋, Bash; Consul; GitLab CI, Jenkins; GFM-form
 [PC3]: https://github.com/Seagate/cortx-hare/blob/929c0ca4f9a6e79ddc3d7cf5451d5f9c7293814b/rfc/9/README.md
 [RFCs]: https://github.com/Seagate/cortx-hare/tree/929c0ca4f9a6e79ddc3d7cf5451d5f9c7293814b/rfc
 
-#### May 2017–June 2019: Haskell programmer, team lead
+#### May 2017–June 2019: Haskell programmer, team leader
 
 * Inherited a **High Availability** (HA) solution — 50K lines of Haskell code — from [Tweag.io][] developers.  Coped with it. :sweat_smile:
-* **Mentored** 5 colleagues, who never programmed Haskell before.  We had become a team of Haskell developers.
-* Maintenance.  New features development.
+* **Mentored** 5 colleagues, who never programmed in Haskell before.  In a few months we became a _functional_ team, doing maintenance work and developing new features.
 
 Technologies: **Cloud Haskell**, `Control.Monad.Operational`
 
@@ -66,9 +66,9 @@ Technologies: **Cloud Haskell**, `Control.Monad.Operational`
 * [Configuration caching][confc] subsystem (DAG of conf objects, client/server, graph traversal APIs, data format converter, visualization) — design and implementation
 * Modular initialization/finalization mechanism — implementation
 * Memory-efficient representation of device pools — design and implementation
-* Wrote helper scripts for fellow developers
+* Wrote helper scripts that were well received by colleagues
 
-Technologies: C, Python, Bash, a sprinkle of **Expect** and JavaScript
+Technologies: C, Python, Bash, a sprinkle of **Expect**
 
 [confc]: https://github.com/Seagate/cortx-motr/tree/81793c00bed8d8b60d2fe0e58a3640648e5e3eca/conf
 
