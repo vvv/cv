@@ -98,9 +98,9 @@ Technologies:
 
 ## :mortar_board: Education
 
-* 1993: Kyiv Natural Science Lyceum No. 145 <br/>
+* 1993: [Kyiv Natural Science Lyceum No. 145](https://en.wikipedia.org/wiki/Kyiv_Natural_Science_Lyceum_No._145)<br/>
   Award of recognition for outstanding grades in mathematics
-* 1999: National Technical University of Ukraine "Kyiv Polytechnic Institute"  <br/>
+* 1999: [National Technical University of Ukraine "Kyiv Polytechnic Institute"](https://en.wikipedia.org/wiki/Igor_Sikorsky_Kyiv_Polytechnic_Institute)<br/>
   Avionics engineer (diploma with honours)
 
 ## Community
