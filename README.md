@@ -8,7 +8,18 @@ LinkedIn: https://www.linkedin.com/in/vorotylo/
 
 ## Work
 
-### October 2020–now: Rust programmer at Elastio
+### January 2023–now: senior Rust engineer at Grid Dynamics; Evinced project
+
+Joined Evinced R&D team that develops [the tool][MFA] for mobile apps' accessibility validation.
+
+[MFA]: https://www.evinced.com/products/flow-analyzer-for-mobile
+
+### December 2022-January 2023: Performance benchmarking for ZincSearch
+
+Investigated performance optimization opportunities for [ZincSearch](https://github.com/zinclabs/zinc-observe) (log search project).
+The task was interesting, and I enjoyed learning about Parquet, Arrow, and DataFusion and working with those technologies.
+
+### October 2020–December 2022: Rust programmer at Elastio
 
 [Elastio] is a startup building a backup and recovery solution for public clouds.
 
@@ -25,7 +36,9 @@ Technologies:
 - AWS (EBS, EC2, ECR, Lambda, S3)
 - Protobuf
 - Docker
+- CI (GitHub Actions)
 - `jq` _(my precious!)_
+- Dhall
 
 [Elastio]: https://elastio.com/
 
