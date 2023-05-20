@@ -6,13 +6,62 @@ Email: valery.vv@gmail.com \
 GitHub: [vvv](https://github.com/vvv) \
 LinkedIn: https://www.linkedin.com/in/vorotylo/
 
-## Work
+## Work experience
 
-### January 2023–now: senior Rust engineer at Grid Dynamics; Evinced project
+### March 2023–May 2023: Senior software engineer at ZincLabs
 
-Joined Evinced R&D team that develops [the tool][MFA] for mobile apps' accessibility validation.
+Joined as the 6th member of the team.
+
+Project: [ZincObserve]
+Team: backend
+
+[ZincObserve]: https://github.com/zinclabs/zincobserve
+
+Contributions:
+
+- R&D of a PromQL execution engine
+- implemented HTTP APIs (dashboards, Prometheus)
+- wrote benchmarks, improved performance of the PromQL engine
+- refactored and documented the code
+
+Tech:
+
+- Apache Arrow, DataFusion
+- Prometheus, Grafana
+- AWS, GCS
+- k8s
+- etcd
+
+Notes:
+
+Interesting work. Kind and supportive teammates.
+I couldn't sustain the pace, so we had separated.
+
+Novelties:
+
+- Started to use AI assistants (ChatGPT-4, CoPilot).
+- Switched from Doom Emacs to VS Code at first and then to Neovim.
+- I became less afraid of Kubernetes, though I still don't know it.
+- Found out that 10x engineers do exist.
+
+### January 2023–March 2023: Senior Rust engineer at Evinced / Grid Dynamics
+
+Company: Evinced
+Team: R&D
+Product: [Mobile Flow Analyzer][MFA] (accessibility testing toolkit)
 
 [MFA]: https://www.evinced.com/products/flow-analyzer-for-mobile
+
+Contributions:
+
+- Revamped a CLI app that generates Android & XCUI testing reports.
+- Implemented a WebSocket IPC library that allows obtaining custom data (fonts, color info, etc.) from mobile devices.
+
+Tech:
+
+- async (tokio)
+- WebSockets
+- TLS
 
 ### December 2022-January 2023: Performance benchmarking for ZincSearch
 
@@ -23,7 +72,7 @@ The task was interesting, and I enjoyed learning about Parquet, Arrow, and DataF
 
 [Elastio] is a startup building a backup and recovery solution for public clouds.
 
-My contributions:
+Contributions:
 
 - Implemented ransomware detection software in Rust
 - Developed R&D tools in Bash, Python, and Rust
@@ -33,6 +82,7 @@ My contributions:
 - Programmed gRPC API services in Rust
 
 Technologies:
+
 - AWS (EBS, EC2, ECR, Lambda, S3)
 - Protobuf
 - Docker
