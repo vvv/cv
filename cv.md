@@ -11,18 +11,14 @@ Skilled Rust programmer seeking a role as an individual contributor in a dynamic
 ## Skills
 
 **Programming Languages**: 
-- Proficient: Rust, Bash, Python
-- Familiar: JavaScript, Elm, Ruby
-- Previous experience: C, Haskell (years of experience, but prefer not to use in the future)
+- Rust, Bash, Python
+- Years of C and Haskell experience, but prefer not to use in the future
 
 **Functional Programming**: 
 - Proficient in functional programming principles, using languages like Emacs Lisp, Haskell, Elm, Dhall, and Rust
 
 **Languages**: 
 - Native in Ukrainian, fluent in English
-
-**Documentation**: 
-- Experience writing technical specifications in the form of RFC-like documents
 
 **Operating Systems**: 
 - Extensive development experience on Linux platform (Red Hat/Fedora/CentOS, Debian/Ubuntu, Amazon Linux 2)
@@ -34,32 +30,32 @@ Skilled Rust programmer seeking a role as an individual contributor in a dynamic
 **Containerization and Orchestration**: 
 - Familiar with Docker (Dockerfiles, docker compose) and basic interaction with Kubernetes (`kubectl`, OpenLens)
 
-**Performance Engineering**: 
-- Proficient in performance engineering tools like Criterion and flamegraph-rs
+**Cloud Technologies**:
+- Experienced with AWS services including EC2, EBS, S3, ECS, CloudFront, and Lambda
 
 **API Tools**: 
 - Experienced in implementing and debugging HTTP APIs using tools like Insomnia, Postman, and Wireshark
 
-**Version Control**: 
-- Proficient with Git, recognized as team's "Bash/Git go-to guy"
+**Performance Engineering**:
+- Proficient in performance engineering tools like Criterion and flamegraph-rs
 
 **Security**: 
 - Basic exposure to computer security domain through work on a ransomware detection team
 
-**Cloud Technologies**: 
-- Experienced with AWS services including EC2, EBS, S3, ECS, CloudFront, and Lambda
+**Documentation**:
+- Experience writing technical specifications in the form of RFC-like documents
+
+**Version Control**:
+- Proficient with Git, recognized as team's "Bash/Git go-to guy"
 
 **Editors**: 
 - Proficient with vanilla & Doom Emacs, VS Code, Neovim
 
-**Leadership and Mentoring**: 
-- Team leadership and mentoring experience
-
-**Community Involvement**: 
-- Organized several hackathons and a Rust Hack & Learn meetup
-
 **AI Assistants:**
 - Proficient in utilizing AI tools like ChatGPT-4 and CoPilot in daily tasks
+
+**Leadership and Mentoring**:
+- Team leadership and mentoring experience
 
 ## Work Experience
 
@@ -82,12 +78,6 @@ ZincLabs is a start-up focused on cloud-based technologies. I joined as the 6th 
 - Incorporated Prometheus, Grafana for monitoring and visualization 
 - Leveraged AWS, GCS for cloud computing and storage solutions
 - Interacted with Kubernetes (k8s) and etcd for container orchestration
-
-**Notable Experiences**:
-- Gained hands-on experience with AI assistants such as ChatGPT-4 and CoPilot, which greatly enhanced my development productivity 
-- Transitioned from Doom Emacs to VS Code and subsequently to Neovim, increasing my adaptability to new coding environments
-- Gained a better understanding of Kubernetes, reducing my apprehension towards this powerful orchestration tool
-- Collaborated closely with an exceptionally proficient colleague, whose efficiency was an order of magnitude greater than average, providing me with unique insights into high-efficiency coding practices.
 
 ### January 2023–March 2023: Senior Rust Engineer, Evinced (contracted through Grid Dynamics)
 
