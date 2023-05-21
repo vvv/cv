@@ -1,175 +1,194 @@
-# Valeriy V. Vorotyntsev
+## Valeriy V. Vorotyntsev
 
-Experienced software engineer, pragmatic problem solver.  I can grow a happy and productive team.  People like working with me.
+- Email: valery.vv@gmail.com
+- GitHub: https://github.com/vvv
+- LinkedIn: https://www.linkedin.com/in/vorotylo/
 
-Email: valery.vv@gmail.com \
-GitHub: [vvv](https://github.com/vvv) \
-LinkedIn: https://www.linkedin.com/in/vorotylo/
+## Summary
 
-## Work experience
+Skilled Rust programmer seeking a role as an individual contributor in a dynamic and innovative team. Passionate about sharing knowledge, mentoring others, and creating user-focused tools. Eager to explore new programming languages like Zig and domains such as drone flight controller programming. An advocate for open-source coding, work-life balance, and a collaborative work culture. Open to opportunities in mature startups, with a preference for environments that promote a balanced lifestyle.
 
-### March 2023–May 2023: Senior software engineer at ZincLabs
+## Skills
 
-Joined as the 6th member of the team.
+**Programming Languages**: 
+- Rust, Bash, Python
+- Years of C and Haskell experience, but prefer not to use in the future
 
-Project: [ZincObserve]
-Team: backend
+**Functional Programming**: 
+- Proficient in functional programming principles, using languages like Emacs Lisp, Haskell, Elm, Dhall, and Rust
+
+**Languages**: 
+- Native in Ukrainian, fluent in English
+
+**Operating Systems**: 
+- Extensive development experience on Linux platform (Red Hat/Fedora/CentOS, Debian/Ubuntu, Amazon Linux 2)
+
+**CI/CD**: 
+- Experience defining CI workflows for GitLab and GitHub Actions
+- Applied Dhall configuration language to reduce code duplication
+
+**Containerization and Orchestration**: 
+- Familiar with Docker (Dockerfiles, docker compose) and basic interaction with Kubernetes (`kubectl`, OpenLens)
+
+**Cloud Technologies**:
+- Experienced with AWS services including EC2, EBS, S3, ECS, CloudFront, and Lambda
+
+**API Tools**: 
+- Experienced in implementing and debugging HTTP APIs using tools like Insomnia, Postman, and Wireshark
+
+**Performance Engineering**:
+- Proficient in performance engineering tools like Criterion and flamegraph-rs
+
+**Security**: 
+- Basic exposure to computer security domain through work on a ransomware detection team
+
+**Documentation**:
+- Experience writing technical specifications in the form of RFC-like documents
+
+**Version Control**:
+- Proficient with Git, recognized as team's "Bash/Git go-to guy"
+
+**Editors**: 
+- Proficient with vanilla & Doom Emacs, VS Code, Neovim
+
+**AI Assistants:**
+- Proficient in utilizing AI tools like ChatGPT-4 and CoPilot in daily tasks
+
+**Leadership and Mentoring**:
+- Team leadership and mentoring experience
+
+## Work Experience
+
+### March 2023–May 2023: Senior Software Engineer at ZincLabs
+
+ZincLabs is a start-up focused on cloud-based technologies. I joined as the 6th member of the team and contributed primarily to the ZincObserve project on the backend team. 
+
+**Project:** [ZincObserve]
 
 [ZincObserve]: https://github.com/zinclabs/zincobserve
 
-Contributions:
+**Contributions**:
+- Collaborated in R&D, resulting in the design and implementation of a robust PromQL execution engine 
+- Developed a variety of HTTP APIs, including dashboards and Prometheus integrations, which enhanced user experience
+- Increased the performance of the PromQL engine by 38% through rigorous benchmarking and optimization
+- Overhauled existing codebase, improving code maintainability and clarity, and created comprehensive documentation for future team members 
 
-- R&D of a PromQL execution engine
-- implemented HTTP APIs (dashboards, Prometheus)
-- wrote benchmarks, improved performance of the PromQL engine
-- refactored and documented the code
+**Technologies**:
+- Utilized Apache Arrow, DataFusion for data manipulation and querying
+- Incorporated Prometheus, Grafana for monitoring and visualization 
+- Leveraged AWS, GCS for cloud computing and storage solutions
+- Interacted with Kubernetes (k8s) and etcd for container orchestration
 
-Tech:
+### January 2023–March 2023: Senior Rust Engineer, Evinced (contracted through Grid Dynamics)
 
-- Apache Arrow, DataFusion
-- Prometheus, Grafana
-- AWS, GCS
-- k8s
-- etcd
-
-Notes:
-
-Interesting work. Kind and supportive teammates.
-I couldn't sustain the pace, so we had separated.
-
-Novelties:
-
-- Started to use AI assistants (ChatGPT-4, CoPilot).
-- Switched from Doom Emacs to VS Code at first and then to Neovim.
-- I became less afraid of Kubernetes, though I still don't know it.
-- Found out that 10x engineers do exist.
-
-### January 2023–March 2023: Senior Rust engineer at Evinced / Grid Dynamics
-
-Company: Evinced
-Team: R&D
-Product: [Mobile Flow Analyzer][MFA] (accessibility testing toolkit)
+**Project:** [Mobile Flow Analyzer][MFA] (accessibility testing toolkit)
 
 [MFA]: https://www.evinced.com/products/flow-analyzer-for-mobile
 
-Contributions:
+**Team:** R&D
 
-- Revamped a CLI app that generates Android & XCUI testing reports.
-- Implemented a WebSocket IPC library that allows obtaining custom data (fonts, color info, etc.) from mobile devices.
+**Key Contributions:**
 
-Tech:
+- **Redesigned and Optimized CLI Application:** Led the successful revamp of a command-line interface application used for generating comprehensive Android and XCUI testing reports, enhancing overall efficiency and user experience.
 
-- async (tokio)
+- **Developed WebSocket IPC Library:** Implemented a WebSocket inter-process communication library, providing functionality for obtaining custom data, such as font information and color details, from mobile devices, thus enriching data analysis capability.
+
+**Key Technologies:**
+
+- Asynchronous programming (Tokio)
 - WebSockets
-- TLS
+- Transport Layer Security (TLS)
 
-### December 2022-January 2023: Performance benchmarking for ZincSearch
+### December 2022-January 2023: Freelance Performance Optimization Consultant, ZincLabs
 
-Investigated performance optimization opportunities for [ZincSearch](https://github.com/zinclabs/zinc-observe) (log search project).
-The task was interesting, and I enjoyed learning about Parquet, Arrow, and DataFusion and working with those technologies.
+**Project:** [ZincObserve]
 
-### October 2020–December 2022: Rust programmer at Elastio
+In this freelance engagement, I was tasked with exploring performance optimization opportunities for ZincObserve's search engine.
 
-[Elastio] is a startup building a backup and recovery solution for public clouds.
+Key Responsibilities and Achievements:
 
-Contributions:
+- Conducted comprehensive investigation into potential performance enhancements for the application.
+- Gained substantial expertise in working with Parquet, Arrow, and DataFusion technologies.
+- Delivered actionable insights and recommendations to optimize application performance, contributing to improved project outcomes.
 
-- Implemented ransomware detection software in Rust
-- Developed R&D tools in Bash, Python, and Rust
-- Improved ergonomics of `elastio` CLI tool
-- Implemented a config crate (à la `aws config`)
-- Enhanced maintainability of CI definitions (ask me about `github-actions-dhall`)
-- Programmed gRPC API services in Rust
+Technologies Used:
 
-Technologies:
+- Arrow
+- DataFusion
+- Parquet
 
+### October 2020–December 2022: Rust Developer, Elastio
+
+[Elastio](https://elastio.com/) is a startup that provides backup and recovery solutions for AWS customers. The company uses machine learning, signatures, and heuristics to scan AWS Backup data for ransomware, malware, and corruption, ensuring clean recoveries.
+
+In this role, I made significant contributions to the core functionality of the product and the improvement of team productivity and project outcomes.
+
+Key Responsibilities and Achievements:
+
+- Developed and implemented robust ransomware detection software in Rust, contributing to Elastio's core mission of providing secure recovery options for AWS customers.
+- Created a variety of R&D tools using Bash, Python, and Rust, furthering the company's product development efforts.
+- Improved the ergonomics of the `elastio` CLI tool, enhancing user experience and ease of use.
+- Developed a configuration crate akin to `aws config`, contributing to the seamless integration of Elastio with AWS Backup.
+- Improved the maintainability of CI definitions, including the application of `github-actions-dhall`, promoting an efficient and agile development environment.
+- Programmed gRPC API services in Rust, expanding service offerings and improving system efficiency.
+
+Technologies Used:
+
+- Rust
+- Bash
+- Python
 - AWS (EBS, EC2, ECR, Lambda, S3)
 - Protobuf
 - Docker
-- CI (GitHub Actions)
-- `jq` _(my precious!)_
+- GitHub Actions CI
+- jq
 - Dhall
 
-[Elastio]: https://elastio.com/
+### July 2011 - October 2020: Various Roles at Xyratex / Seagate
 
-### 2011–2020: Distributed object store
+During my time at Seagate, which absorbed Xyratex, I was privileged to participate in the development of an object storage system project, which pivoted into an archival solution and then a hybrid cloud. This codebase was eventually open-sourced in autumn 2020 as the [CORTX Motr Project](https://github.com/Seagate/cortx-motr).
 
-Company: Xyratex → Seagate
+#### Team Lead, "Hare" team (July 2019 - August 2020)
+Leading a 5-person team, we successfully replaced the legacy High Availability (HA) system with a simpler Consul-based solution. I innovated our team structure and communication with the [PC3] collaboration model, resulting in increased team efficiency and satisfaction. Additionally, I introduced RFC practices and enhanced test automation, CI, and merge bot systems. Key technologies employed included Python, Dhall, Bash, Consul, and GitLab CI.
 
-The project started as an exascale **object storage system** for HPC.  Then it pivoted into an archival solution.  Then a hybrid cloud...  The code had been [open-sourced][cortx-motr] in autumn 2020.
+[PC3]: https://github.com/Seagate/cortx-hare/blob/6915b5670f12c666900261dfbef56b8e719054a0/rfc/9/README.md
 
-[cortx-motr]: https://github.com/Seagate/cortx-motr
+#### Haskell Programmer, Team Lead (May 2017 - June 2019)
+I took the reins of a 50K-line High Availability (HA) solution written in Haskell, mentoring five colleagues new to Haskell programming along the way. This team transitioned to functional maintenance work and feature development within a few months. The primary technology used during this time was Cloud Haskell.
 
-#### July 2019–August 2020: "Hare" team leader :rabbit:
+#### C Programmer (June 2011 - May 2017)
+In the early stages of my tenure, I was responsible for designing and implementing several key features, including a configuration caching subsystem, a modular initialization/finalization mechanism, and a memory-efficient representation of device pools. Additionally, I developed helper scripts that were positively received by the team. Technologies used included C, Python, Bash, and Expect.
 
-I lead a team of 5 engineers.  We had successfully replaced legacy HA (High Availability) system with a simpler solution based on **Consul**.
+### 2006 - 2010: Telecom Data Processing Engineer at UMC / MTS
 
-My contributions:
-* [PC3][] collaboration model — for 5 months the team was a happy oasis :palm_tree: set amid enterprise desolation
-* Introducing the practice of **[RFCs][]**
-* Tests automation, CI, merge bot
-* [Configuration][`cfgen`] module
+During my tenure at UMC, which was acquired by MTS and then rebranded as Vodafone, I maintained and developed software for Call Detail Record (CDR) processing using C++ and Python. Key accomplishments include:
 
-Technologies: Python, **Dhall** 🖋, Bash; Consul; GitLab CI, Jenkins; GFM-formatted English
+- Developed a custom templating engine using an `m4` macro library, improving efficiency in generating wiki documentation for data format converters.
+- Created a CLI tool in C for converting DER-encoded Call Detail Record (CDR) files to text format (s-expressions) and vice versa, enabling CDR file filtering and modifications.
+- Pioneered the introduction of Python into the unit's tech stack, previously solely C++, thereby improving delivery speed.
 
-[`cfgen`]: https://github.com/Seagate/cortx-hare/tree/929c0ca4f9a6e79ddc3d7cf5451d5f9c7293814b/cfgen
-[PC3]: https://github.com/Seagate/cortx-hare/blob/929c0ca4f9a6e79ddc3d7cf5451d5f9c7293814b/rfc/9/README.md
-[RFCs]: https://github.com/Seagate/cortx-hare/tree/929c0ca4f9a6e79ddc3d7cf5451d5f9c7293814b/rfc
+### 1999 - 2006: Software Developer at ИТЦ ПК, subcontracted by GSE Systems
 
-#### May 2017–June 2019: Haskell programmer, team leader
+Worked on projects developing nuclear power plant (NPP) simulators, focusing on the Plant Process Computer (PPC) subsystem. The role involved both adapting existing software and creating new tools to provide realistic, detailed simulation experiences. Key responsibilities and achievements included:
 
-* Inherited a **High Availability** (HA) solution — 50K lines of Haskell code — from [Tweag.io][] developers.  Coped with it. :sweat_smile:
-* **Mentored** 5 colleagues, who never programmed in Haskell before.  In a few months we became a _functional_ team, doing maintenance work and developing new features.
+- Successfully ported the PPC dashboard system from IRIX to Linux, which involved customizing and integrating an array of C programs originally designed for a different NPP unit. This work provided invaluable experience in Linux and C programming.
+- Designed and implemented a client-server GUI application in C++, adding representation for a specific NPP unit component not included in the original software package. The server read data from IPC System V shared memory and sent it via a TCP socket to the client for graphical display.
+- Developed a CGI server for report generation using Python, marking my introduction to the language and broadening the toolkit for future projects.
+- For a subsequent analytical NPP simulator project, I leveraged my Python skills to develop a program that parsed display description files and generated files in the `DataViews` format. This enabled the viewing of PPC displays on the Instructor Station, enhancing the simulator's functionality and usability.
 
-Technologies: **Cloud Haskell**, `Control.Monad.Operational`
+Technologies utilized: SysV IPC (shmem), TCP sockets, X11, gdbm, C, C++, Bash, awk, Python, gtkmm, ACE framework, Trac (issues & wiki), `DataViews`.
 
-[Tweag.io]: https://www.tweag.io/
+### Education
 
-#### June 2011–May 2017: C programmer
+**National Technical University of Ukraine "Kyiv Polytechnic Institute"**, Kyiv, Ukraine, 1993-1999
+- Degree: Avionics Engineer (Honors)
 
-* [Configuration caching][confc] subsystem (DAG of conf objects, client/server, graph traversal APIs, data format converter, visualization) — design and implementation
-* Modular initialization/finalization mechanism — implementation
-* Memory-efficient representation of device pools — design and implementation
-* Wrote helper scripts that were well received by colleagues
+**Kyiv Natural Science Lyceum No. 145**, Kyiv, Ukraine, 1989-1993
+- Received a Certificate of Distinction for Outstanding Achievements in Mathematics Study.
 
-Technologies: C, Python, Bash, a sprinkle of **Expect**
+### Community Involvement
 
-[confc]: https://github.com/Seagate/cortx-motr/tree/81793c00bed8d8b60d2fe0e58a3640648e5e3eca/conf
-
-### January 2011–May 2011: Embedded developer at Cogent Plus
-
-Integrated third-party TR-069 client with [OpenRG](https://web.archive.org/web/20110515113200/http://www.jungo.com/openrg/pr_openrg.html) middleware (Linux-based).  The software ran on ITS Telecom mobile broadband router.
-
-### 2006–2010: Telecom data processing
-
-Company: UMC → MTS → Vodafone
-
-Maintained and developed [CDR](https://en.wikipedia.org/wiki/Call_detail_record) processing software in C++ and Python.
-
-### 1999–2006: Nuclear power plant simulators
-
-Company: ИТЦ ПК, subcontracted by GSE Systems
-
-* Ported the "Plant Process Computer" dashboard system ([watch it in action :desktop_computer:](https://www.youtube.com/watch?v=L_WoXBLTCLs&t=51s)) from IRIX to Linux, customized, and integrated
-* Designed and implemented a client-server GUI application (C++)
-* Wrote a CGI server for generating reports (Python)
-
-Technologies:
-- SysV IPC (shmem, sockets), X11, dbm
-- C, C++, Bash, awk, Python
-- gtkmm, ACE framework, Trac (issues & wiki), [DataViews](https://www.prs.de/dataviews%E2%84%A2)
-
-## :mortar_board: Education
-
-* 1993: [Kyiv Natural Science Lyceum No. 145](https://en.wikipedia.org/wiki/Kyiv_Natural_Science_Lyceum_No._145)<br/>
-  Award of recognition for outstanding grades in mathematics
-* 1999: [National Technical University of Ukraine "Kyiv Polytechnic Institute"](https://en.wikipedia.org/wiki/Igor_Sikorsky_Kyiv_Polytechnic_Institute)<br/>
-  Avionics engineer (diploma with honours)
-
-## Community
-
-* [LtU-Kyiv hackathon](https://wiki.haskell.org/LtU-Kiev/Hackathon) — organizer
-* IT volunteering — lead a team of Android developers in 2015
-* Haskell study group
-* Elm study group
-* [Rust Hack & Learn, Kyiv](https://kyivlambda.com/rust-hack-and-learn/README_en) — organizer
+- Organized the LtU-Kyiv Haskell Hackathon, an event designed to gather Haskell enthusiasts and foster knowledge sharing and coding collaboration.
+- Served as a team lead for a group of Android developers in IT Volunteering Project in 2015.
+- Facilitated study groups to explore and learn Haskell and Elm programming languages.
+- Organized Rust Hack & Learn meetup in Kyiv.
