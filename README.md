@@ -6,25 +6,22 @@
 
 ## Summary
 
-Skilled Rust programmer seeking a role as an individual contributor in a dynamic and innovative team. Passionate about sharing knowledge, mentoring others, and creating user-focused tools. Eager to explore new programming languages like Zig and domains such as drone flight controller programming. An advocate for open-source coding, work-life balance, and a collaborative work culture. Open to opportunities in mature startups, with a preference for environments that promote a balanced lifestyle.
+Skilled Rust programmer seeking a role as an individual contributor in a dynamic and innovative team. Passionate about sharing knowledge and creating user-focused tools. An advocate for open-source coding, work-life balance, and a collaborative work culture.
 
 ## Skills
 
 **Programming Languages**: 
 - Rust, Bash, Python
-- Years of C and Haskell experience, but prefer not to use in the future
+- Years of C and Haskell experience
 
 **Functional Programming**: 
 - Proficient in functional programming principles, using languages like Emacs Lisp, Haskell, Elm, Dhall, and Rust
 
-**Languages**: 
-- Native in Ukrainian, fluent in English
-
 **Operating Systems**: 
-- Extensive development experience on Linux platform (Red Hat/Fedora/CentOS, Debian/Ubuntu, Amazon Linux 2)
+- Extensive development experience on Linux platform
 
 **CI/CD**: 
-- Experience defining CI workflows for GitLab and GitHub Actions
+- Experience defining CI workflows for GitHub Actions and GitLab
 - Applied Dhall configuration language to reduce code duplication
 
 **Containerization and Orchestration**: 
@@ -48,12 +45,6 @@ Skilled Rust programmer seeking a role as an individual contributor in a dynamic
 **Version Control**:
 - Proficient with Git, recognized as team's "Bash/Git go-to guy"
 
-**Editors**: 
-- Proficient with vanilla & Doom Emacs, VS Code, Neovim
-
-**AI Assistants:**
-- Proficient in utilizing AI tools like ChatGPT-4 and CoPilot in daily tasks
-
 **Leadership and Mentoring**:
 - Team leadership and mentoring experience
 
@@ -63,9 +54,9 @@ Skilled Rust programmer seeking a role as an individual contributor in a dynamic
 
 ZincLabs is a start-up focused on cloud-based technologies. I joined as the 6th member of the team and contributed primarily to the ZincObserve project on the backend team. 
 
-**Project:** [ZincObserve]
+**Project:** ZincObserve (now [OpenObserve])
 
-[ZincObserve]: https://github.com/zinclabs/zincobserve
+[OpenObserve]: https://openobserve.ai/
 
 **Contributions**:
 - Collaborated in R&D, resulting in the design and implementation of a robust PromQL execution engine 
@@ -101,7 +92,7 @@ ZincLabs is a start-up focused on cloud-based technologies. I joined as the 6th 
 
 ### December 2022-January 2023: Freelance Performance Optimization Consultant, ZincLabs
 
-**Project:** [ZincObserve]
+**Project:** ZincObserve (now [OpenObserve])
 
 In this freelance engagement, I was tasked with exploring performance optimization opportunities for ZincObserve's search engine.
 
