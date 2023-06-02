@@ -177,9 +177,13 @@ Technologies utilized: SysV IPC (shmem), TCP sockets, X11, gdbm, C, C++, Bash, a
 **Kyiv Natural Science Lyceum No. 145**, Kyiv, Ukraine, 1989-1993
 - Received a Certificate of Distinction for Outstanding Achievements in Mathematics Study.
 
+### Certifications
+
+[**Machine Learning**](https://www.coursera.org/account/accomplishments/verify/Y4LZYWPZMAJB) Coursera course certificate, July 2016
+
 ### Community Involvement
 
 - Organized the LtU-Kyiv Haskell Hackathon, an event designed to gather Haskell enthusiasts and foster knowledge sharing and coding collaboration.
 - Served as a team lead for a group of Android developers in IT Volunteering Project in 2015.
-- Facilitated study groups to explore and learn Haskell and Elm programming languages.
+- Participated in Haskell and Elm study groups.
 - Organized Rust Hack & Learn meetup in Kyiv.
