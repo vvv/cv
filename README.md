@@ -6,7 +6,7 @@
 
 ## Summary
 
-Skilled Rust programmer seeking a role as an individual contributor in a dynamic and innovative team. Passionate about sharing knowledge and creating user-focused tools. An advocate for open-source coding, work-life balance, and a collaborative work culture.
+Skilled systems software engineer seeking a role as an individual contributor in a dynamic and innovative team. Passionate about sharing knowledge and creating user-focused tools. An advocate for open-source coding and a collaborative work culture.
 
 ## Skills
 
@@ -15,7 +15,7 @@ Skilled Rust programmer seeking a role as an individual contributor in a dynamic
 - Years of C and Haskell experience
 
 **Functional Programming**: 
-- Proficient in functional programming principles, using languages like Emacs Lisp, Haskell, Elm, Dhall, and Rust
+- Proficient in functional programming principles, using languages like Haskell, Elm, Dhall, Rust, and Emacs Lisp
 
 **Operating Systems**: 
 - Extensive development experience on Linux platform
@@ -30,8 +30,11 @@ Skilled Rust programmer seeking a role as an individual contributor in a dynamic
 **Cloud Technologies**:
 - Experienced with AWS services including EC2, EBS, S3, ECS, CloudFront, and Lambda
 
+**Networks**:
+- Capture files analysis (PCAP fingerprinting) with Wireshark and Rust/Python SDK
+
 **API Tools**: 
-- Experienced in implementing and debugging HTTP APIs using tools like Insomnia, Postman, and Wireshark
+- Experienced in implementing and debugging HTTP APIs using tools like Insomnia and Postman
 
 **Performance Engineering**:
 - Proficient in performance engineering tools like Criterion and flamegraph-rs
@@ -43,12 +46,19 @@ Skilled Rust programmer seeking a role as an individual contributor in a dynamic
 - Experience writing technical specifications in the form of RFC-like documents
 
 **Version Control**:
-- Proficient with Git, recognized as team's "Bash/Git go-to guy"
+- Proficient with Git, recognized as team's "Bash & Git go-to guy"
 
 **Leadership and Mentoring**:
 - Team leadership and mentoring experience
 
 ## Work Experience
+
+### July 2023–present: Rust programmer at Galactica Labs
+
+Contracted by Galactica Labs to implement a network packet fingerprinting tool 'JA4' in Rust.
+JA4 is a modernized and extended version of the [JA3] fingerprinting algorithm. In addition to TLS, JA4 supports SSH and HTTP protocols and also performs latency analysis.
+
+[JA3]: https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967/
 
 ### March 2023–May 2023: Senior Software Engineer at ZincLabs
 
